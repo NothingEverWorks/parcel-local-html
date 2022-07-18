@@ -1,0 +1,43 @@
+$dark-background: #121212;
+$dark-color: white;
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: $dark-background;
+        color: $dark-color;
+    }
+
+    .mdc-text-field__input {
+        color: $dark-color  !important;
+        transition: all 80ms;
+    }
+}
+
+.mdc-switch-margin-fix {
+    margin: 18px;
+}
+
+.flexbox-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.flexbox-item {
+    flex: 0 1 auto;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.text-align-center {
+    text-align: center;
+}

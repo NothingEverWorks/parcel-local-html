@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/.parcel-cache": true,
+        "**/*.code-search": false,
+        "**/bower_components": false,
+        "**/dist": true,
+        "**/node_modules": true
+    },
+    "files.exclude": {
+        "node_modules/": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always"
+}
